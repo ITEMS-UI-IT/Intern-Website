@@ -1,0 +1,272 @@
+/* Large Screens */
+
+@media only screen and (min-width: 767px) {
+    /* General */
+    body{
+        background-color: #0f0f0f;
+        color: white;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .btn{
+        border-radius: 0;
+        font-weight: bold;
+    }
+
+    .accordion-header button{
+        background-color: #0f0f0f;
+        color: white;
+        font-size: 3rem;
+        font-weight: 600;
+    }
+
+    .accordion-body{
+        background-color: #0f0f0f;
+        color: white;
+    }
+
+
+    /* Nav-Bar */
+    .NAV-LOGO{
+        width: 6rem;
+        height: 6rem;
+        border-radius: 100%;
+    }
+
+    .nav-item{
+        margin-left: 1rem;
+    }
+
+    /* Hero */
+    .HERO-SECTION{
+        display: grid;
+        place-items: center;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        text-align: center;
+        margin-bottom: 4rem;
+        
+    }
+
+    .HERO-SECTION h1 {
+        margin-bottom: 1.5rem;
+        font-size: 3rem;
+        font-weight: 700
+    }
+
+    .HERO-SECTION h1 span{
+        color: red;
+    }
+
+    .HERO-SECTION h4{
+        margin-bottom: 3rem;
+    }
+    
+    #skills-marquee {
+        white-space: nowrap; /* Prevent line breaks */
+        font-size: 24px;
+        font-weight: 100;
+        color: white;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-top: 5rem;
+
+    }
+
+    #skills-marquee span {
+    padding: 0 10px; /* Adjust the space between skills */
+    }
+
+    /* About */
+    .ABOUT-SECTION{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .ABOUT-TEXT{
+        margin-bottom: 1rem;
+    }
+    
+    .ABOUT-TEXT-CONTAINER{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+
+    /* Units */
+    .UNITS-SECTION{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .UNITS-SECTION h2{
+        margin-bottom: 2rem;
+        text-align: center;
+    }
+    .UNITS-CONTENT h5{
+        text-align: center;
+    }
+    .UNITS-CONTENT{
+        margin-bottom: 1rem;
+    }
+    .UNITS-CONTENT img{
+        width: 100%;
+    }
+    .UNITS-CONTENT h5{
+        margin-top: 1rem;
+    }
+
+    /* Contact */
+    .CONTACT-SECTION{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    /* Footer */
+    footer {
+        text-align: center;
+        padding: 10px;
+    }
+    footer span{
+        color: red;
+    }
+}
+
+
+/* Small Screens */
+@media only screen and (max-width: 767px) {
+    /* General */
+    body{
+        background-color: #0f0f0f;
+        color: white;
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .btn{
+        border-radius: 0;
+        font-weight: bold;
+    }
+    
+    .accordion-header button{
+        background-color: #0f0f0f;
+        color: white;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+
+    .accordion-body{
+        background-color: #0f0f0f;
+        color: white;
+    }
+
+    /* Nav-Bar */
+    .NAV-LOGO{
+        width: 6rem;
+        height: 6rem;
+        border-radius: 100%;
+    }
+
+    .nav-item{
+        margin-left: 1rem;
+    }
+
+    /* Hero */
+    .HERO-SECTION{
+        display: grid;
+        place-items: center;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        text-align: left;
+    }
+
+    .HERO-SECTION h1{
+        margin-bottom: 1.5rem;
+        font-size: 3rem;
+        font-weight: 700
+    }
+
+    .HERO-SECTION h1 span{
+        color: red;
+    }
+
+    .HERO-SECTION h4{
+        margin-bottom: 3rem;
+    }    
+
+    
+    .HERO-BUTTONS{
+        text-align: left;
+        padding: 0;
+    }
+
+    #skills-marquee {
+        white-space: nowrap; /* Prevent line breaks */
+        font-size: 24px;
+        font-weight: 100;
+        color: white;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-top: 2rem;
+
+    }
+
+    #skills-marquee span {
+    padding: 0 10px; /* Adjust the space between skills */
+    }
+
+    /* About */
+    .ABOUT-SECTION{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .ABOUT-TEXT-CONTAINER{
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .ABOUT-TEXT{
+        margin-bottom: 1rem;
+    }
+
+    /* Units */
+    .UNITS-SECTION{
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+    .UNITS-SECTION h2{
+        margin-bottom: 2rem;
+    }
+    .UNITS-CONTENT{
+        margin-bottom: 1rem;
+
+    }
+    .UNITS-CONTENT h5{
+    text-align: left;
+
+    }
+
+    .UNITS-CONTENT img{
+        width: 100%;
+    }
+    .UNITS-CONTENT h5{
+        margin-top: 1rem;
+    }
+
+    /* Contact */
+    .CONTACT-SECTION{
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    }
+
+    /* Footer */
+    footer {
+    text-align: center;
+    padding: 10px;
+    }
+    footer span{
+        color: red;
+    }
+
+}
