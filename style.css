@@ -1,0 +1,45 @@
+body{
+    background-color: #0f0f0f;
+    color: white;
+}
+
+/* Nav-Bar */
+.btn{
+    border-radius: 0;
+    font-weight: bold;
+}
+
+.NAV-LOGO{
+    width: 6rem;
+    height: 6rem;
+    border-radius: 100%;
+}
+
+
+
+.nav-item{
+    margin-left: 1rem;
+}
+
+.HERO-SECTION{
+    display: grid;
+    place-items: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+
+    text-align: center;
+}
+
+.HERO-SECTION h1{
+    margin-bottom: 1.5rem;
+    font-size: 3rem;
+    font-weight: 700
+}
+
+.HERO-SECTION h1 span{
+    color: red;
+}
+
+.HERO-SECTION h4{
+    margin-bottom: 3rem;
+}
