@@ -63,6 +63,12 @@
 
     .HERO-SECTION h4{
         margin-bottom: 3rem;
+        font-weight: 400;
+
+    }
+
+    .HERO-BUTTONS .MORE{
+        margin-left: 1rem;
     }
     
     #skills-marquee {
@@ -201,6 +207,10 @@
     .HERO-BUTTONS{
         text-align: left;
         padding: 0;
+    }
+
+    .HERO-BUTTONS .MORE{
+        margin-left: 1rem;
     }
 
     #skills-marquee {
