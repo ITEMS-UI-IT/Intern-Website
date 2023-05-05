@@ -5,30 +5,69 @@
 */
 
 /* ALL PAGES */
-body{
-    background-color: #0f0f0f;
-    color: white;
-}
-/* Large Screens */
-@media only screen and (min-width: 767px) {
     body{
         background-color: #0f0f0f;
         color: white;
     }
+    a{
+        text-decoration: none;
+    }
 
-
-}
-
-/* Small Screens */
-@media only screen and (max-width: 767px) {
-    /* General */
-    body{
-        background-color: red;
-        color: white;
+    .btn{
+        border-radius: 0;
+        font-weight: bold;
     }
 
 
-}
+
+    
+/* LOG IN PAGE */
+    /* All Screens */
+        body.LOG-IN{
+            padding: 0;
+        }
+        main.LOG-IN{
+            height: 100vh;
+        }
+        .LOGIN-IMAGE{
+            display: grid;
+            place-items: center;
+        }
+        .LOGIN-IMAGE img{
+            width: 60%;
+        }
+        .LOGIN-FORM{
+            text-align: right;
+            padding-top: 3rem;
+            padding-bottom: 3rem;
+            display: grid;
+            place-items: center;
+
+        }
+        .LOGIN-FORM img{
+            width: 4rem;
+        }
+
+        .LOGIN-FORM input{
+            border-radius: 0;
+        }
+
+    /* Large Screens */
+        @media only screen and (min-width: 767px) {
+           
+
+        }
+
+    /* Small Screens */
+        @media only screen and (max-width: 767px) {
+            .LOGIN-IMAGE{
+                display: none;
+            }
+            .LOGIN-FORM{
+                text-align: left;
+            }
+
+        }
 
 
 
