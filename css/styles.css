@@ -1,0 +1,58 @@
+/* 
+    Pages Available:
+    - Login Page
+    - Register Page
+*/
+
+/* ALL PAGES */
+body{
+    background-color: #0f0f0f;
+    color: white;
+}
+/* Large Screens */
+@media only screen and (min-width: 767px) {
+    body{
+        background-color: #0f0f0f;
+        color: white;
+    }
+
+
+}
+
+/* Small Screens */
+@media only screen and (max-width: 767px) {
+    /* General */
+    body{
+        background-color: red;
+        color: white;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ... PAGE */
+    /* Large Screen */
+    @media only screen and (min-width: 767px) {
+        /* General */
+    
+    
+    
+    }
+
+/* Small Screens */
+    @media only screen and (max-width: 767px) {
+        /* General */
+    
+    
+    
+    }
