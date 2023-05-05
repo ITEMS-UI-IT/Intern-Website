@@ -1,6 +1,9 @@
-/* 
-    Pages Available:
+/*
+    Developed by Emmanuel Oladosu. 
+
+    Table of Content:
     - Login Page
+    - Onboarding Page
     - Register Page
 */
 
@@ -18,15 +21,18 @@
         font-weight: bold;
     }
 
+    .ITeMS{
+        color: red;
+    }
 
 
     
-/* LOG IN PAGE */
+/* LOGIN PAGE */
     /* All Screens */
-        body.LOG-IN{
+        body.LOGIN{
             padding: 0;
         }
-        main.LOG-IN{
+        main.LOGIN{
             height: 100vh;
         }
         .LOGIN-IMAGE{
@@ -71,27 +77,75 @@
 
 
 
-
-
-
-
-
-
-
-
-/* ... PAGE */
-    /* Large Screen */
-    @media only screen and (min-width: 767px) {
-        /* General */
-    
-    
-    
+/* ONBOARDING PAGE */
+    /* All Screens */
+    code.ONBOARD{
+        color: #3481f6;
     }
 
-/* Small Screens */
-    @media only screen and (max-width: 767px) {
-        /* General */
-    
-    
-    
+    body.ONBOARD{
     }
+    main.ONBOARD{
+    }
+    .ONBOARD-CAROUSEL{
+        padding: 5rem;
+    }
+    .ONBOARD-TEXT{
+        text-align: left;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+        display: grid;
+        place-items: center;
+
+    }
+
+    .ONBOARD-TEXT img{
+        width: 4rem;
+        margin-bottom: 2.5rem;
+    }
+    .ONBOARD-TEXT .btn{
+        margin-top: 1.5rem;
+        margin-bottom: 1rem;
+        
+    }
+
+
+    /* Large Screens */
+        @media only screen and (min-width: 767px) {
+            .ONBOARD-TEXT img{
+                display: none;
+            }
+            .carousel-item::before {
+                content: "";
+                position: absolute;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(0, 0, 0, 0.8);
+                z-index: 1;
+              }
+              
+              .carousel-caption {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                width: 100%;
+                padding: 20px;
+                color: #fff;
+                z-index: 2;
+              }
+              
+
+        }
+
+    /* Small Screens */
+        @media only screen and (max-width: 767px) {
+            .ONBOARD-CAROUSEL{
+                display: none;
+            }
+        }
+
+
+
+
