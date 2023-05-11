@@ -4,7 +4,7 @@
     Table of Content:
     - Login Page
     - Onboarding Page
-    - Register Page
+    - Registeration Page
 */
 
 /* ALL PAGES */
@@ -25,7 +25,15 @@
         color: red;
     }
 
-
+    .blinking-text {
+        animation: blink 1s infinite;
+      }
+      
+      @keyframes blink {
+        50% {
+          opacity: 0;
+        }
+      }
     
 /* LOGIN PAGE */
     /* All Screens */
@@ -142,5 +150,35 @@
         }
 
 
+/* REGISTRATION PAGE */
+    /* All Screens */
+    .REGISTRATION-FORM input{
+        border-radius: 0;
+    }
+    main.REGISTRATION{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+
+    }
+    .REGISTRATION img{
+        width:8em;
+    }
+    .REGISTRATION-INFO-SECTION{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+    }
+    /* Large Screens */
+        @media only screen and (min-width: 767px) {
+            .REGISTRATION-FORM{
+                width: 50%;
+            }
+            
+
+        }
+
+    /* Small Screens */
+        @media only screen and (max-width: 767px) {
+           
+        }
 
 
